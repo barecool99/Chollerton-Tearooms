@@ -1,0 +1,251 @@
+/* F I N D   O U T  M O R E   P A GE    C S S */
+
+/* T I T L E */
+#title{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* O V E R A L L   P A G E  */
+body     {
+    background: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* H E A D E R */
+header   {
+    background:white;
+    color: black;
+    padding: 20px 30px;
+
+}
+
+/* L O G O */
+#logo         {
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    width: 49%;
+}
+#logo img    {
+    width: 50px;
+    border-radius: 3px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+#logo span   {
+    display: inline-block;
+}
+
+/* N A V I G A T I O N    B A R  */
+nav     {
+
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+nav ul   {
+    list-style: none;
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a    {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 3px;
+    transition: 0.3s ease all;
+}
+nav ul li a:hover   {
+    background:grey;
+}
+
+
+/*  F O O T E R */
+footer   {
+    background: #222;
+    color: #777;
+    padding: 5px;
+    text-align: center;
+}
+footer img   {
+    display: block;
+    border-radius: 5px;
+    width: 80px;
+    margin: 0 auto 10px;
+}
+
+
+/* M A I N    C O N T E N T*/
+.heroccc           {
+    min-height: 800px;
+    text-align: center;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+}
+.hero-content  {
+    color: black;
+    padding-top: 130px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero-content h1   {
+    color: black;
+    font-size: 100px;
+    margin: 0;
+}
+.hero-content p    {
+
+    font-size: 50px;
+}
+.hero-content a    {
+    display: inline-block;
+    color: black;
+    border: 3px solid #FFF;
+    border-radius: 3px;
+    padding: 15px 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+
+/*  F O  R M    E L E M E N T  */
+form {
+    display: flex;
+    justify-content: center;
+    border: 4px solid #f1f1f1;
+    background-color: rgb(245,245,245);
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+    padding: 20px;
+    background-color:whitesmoke;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+/* S U B M I T    B U T T O N */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+/* Style the container */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+
+/* F O R M    C E N T E R */
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.form-labels{
+    margin-left: 10%;
+    justify-content: flex-start;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* P A G E     R E S P O N S I V E  */
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+/*  C E N T E R   W R I T I N G  */
+#writing-center{
+    display: flex;
+    justify-content: center;
+
+}
+/* C E N T E R   F O R M  */
+#CentreEverything {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    background-image: url("img/background.jpg");
+    background-size: cover;
+
+
+}
+
+
+

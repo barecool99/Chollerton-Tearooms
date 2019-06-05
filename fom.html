@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Chollerton Tearooms | Find Out More Page </title>
+
+    <!-- CSS Linking-->
+    <link rel="stylesheet" href="fom.css">
+
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+
+    <!-- Main Logo used via royalty free logo site -->
+    <a id="logo" href="index.html">
+        <img src="img/logo.png" alt="Logo">
+
+        <!-- This is the title beside the logo-->
+        <div style="color: black">
+            <h3>Chollerton Tearooms</h3>
+        </div>
+    </a>
+
+    <!-- This is the Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="fom.html">FIND OUT MORE</a></li>
+            <li><a href="admin.php">ADMIN</a></li>
+            <li><a href="credits.html">CREDITS</a></li>
+            <li><a href="Wireframe/Wireframe.pdf">WIREFRAME</a></li>
+
+        </ul>
+    </nav>
+
+</header>
+
+
+<main>
+<!-- The content -->
+<!-- Everything is in container called div for stylesheet purposes-->
+
+    <!-- hero content -->
+    <div class="heroccc">
+        <!-- content for the hero -->
+        <div class="hero-content">
+            <h1 class="hero-title">CHOLLERTON TEAROOMS</h1>
+            <h2><i>CONTACT US USING FORM DOWN BELOW!</i></h2>
+            <br> <br> <br> <br> <br> <br><br> <br> <br>
+            <h1> FORM PAGE </h1>
+            <br> <br> <br> <br> <br> <br><br> <br> <br> <br> <br> <br>
+        </div>
+    </div>
+
+    <!-- This is for user input fields like forename, surname, etc and it uses GET  method which means the
+    details is shown in the web URL -->
+
+        <form id= "Form" action="fomForm.php" method="GET">
+
+            <!-- Fields are required and it comes with the validator tag-->
+            <div class="form-labels"><br>
+                <br>
+                Forename : <input type="text" name="forename" />
+                <br>
+                <br>
+                Surname : <input type="text" name="surname" />
+                <br>
+                <br>
+                Email : <input type="text" name="email"/>
+                <br>
+                <br> Landline Number : <input type="text" name="landLineTelNo"  />
+                <br>
+                <br> Mobile Number : <input type="text" name="mobileTelNo"  />
+                <br>
+                <br> Address : <input type="text" name="postalAddress" />
+                <br>
+                <br>
+
+                <!-- How would the user would want to be contacted -->
+                Preferred Contact Choice: <br>
+                <br>
+                <input type="radio" name="sendMethod" value="Email" checked> Email <br>
+                <input type="radio" name="sendMethod" value="SMS"> SMS <br>
+                <input type="radio" name="sendMethod" value="Post"> Post <br>
+                <br>
+                <div>
+                    <!-- Lists of facilities Chollerton Tearooms provide -->
+                Category of facilities you might be interested: <br>
+                <br>
+                <select name="catID">
+                    <option id="c4" value="c4">Post office</option>
+                    <option id="c1" value="c1">Tea room</option>
+                    <option id="c2" value="c2">Craftshop</option>
+                    <option id="c5" value="c5">Bed and Breakfast</option>
+                    <option id="c3" value="c3">VillageStore</option>
+                </select>
+                </div>
+                <br>
+                <!-- Submit Button after filling in the details-->
+                <input type="Submit" value="Submit" />
+
+                <br>
+                <br>
+                <br>
+            </div>
+        </form>
+        <br>
+        <br>
+
+
+
+        <!-- This is the footer -->
+        <footer>
+            <span>Chollerton Tearooms<br>Copyright &copy; 2018 Northumbria University</span>
+        </footer>
+</main>
+</body>
+</html>
